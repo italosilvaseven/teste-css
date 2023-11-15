@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,700;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "poppins", sans-serif ;
+}
+
+
+body{
+    overflow: hidden;
+}
+
+.background{
+    background: linear-gradient(rgba(0, 0, 0.5), rgba(0, 0, 0.5));
+    background-image: url(./pexels-johannes-plenio-3131634.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.cabeçalho-link{
+    display: flex;
+    gap: 1rem;
+    font-weight: 300%;
+    cursor: pointer;
+    }
+
+.cabeçalho-link a{
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.cabeçalho-link a:hover{
+    color: #a13dff;
+    transition: 0.3s all ;
+}
+
+.logo i{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 3px solid #a13dff;
+    color: #a13dff;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+button{
+    color: #a13dff;
+    background: transparent;
+    border: solid 3px #a13dff;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+}
+
+
+button:hover{
+    background-color: #a13dff;
+    color: #ffffff;  
+    transition: 0.5s;
+}
+
+.container-text{
+    padding: 150px;
+}
+
+.text h3{
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.text h1{
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.text span{
+    color: #a13dff;
+}
+
+p {
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.redes-sociais a{
+    color: #a13dff;
+    padding: 10px;
+    margin-top: 5px;
+}
+.btn{
+    margin-top: 10px;
+}
